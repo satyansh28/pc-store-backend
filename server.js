@@ -14,7 +14,8 @@ const cors=(req,res,next)=>{
     res.header("Access-Control-Allow-Origin", frontend);
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
-    res.header("Access-Control-Allow-Credentials",true)
+    res.header("Access-Control-Allow-Credentials",true);
+    res.header("Access-Control-Expose-Headers","set-cookie");
     next();
 }
 
@@ -31,7 +32,7 @@ app.use(session({
     maxAge: 24*60*60*1000,
     keys:["supersecurekey1"],
     httpOnly:true,
-    secure:true,
+    secure:false,
     sameSite:"none"
   }))
 app.patch("*",(req,res)=>res.send())
