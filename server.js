@@ -34,7 +34,7 @@ app.use(session({
     secure:true,
     sameSite:"none"
   }))
-
+app.patch("*",(req,res)=>res.send())
 app.use(passport.initialize());
 app.use(passport.session());
 app.use("/auth",auth_router);
