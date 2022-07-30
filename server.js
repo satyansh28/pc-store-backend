@@ -11,7 +11,7 @@ import mongoose from 'mongoose';
 const port=process.env.PORT;
 const frontend=process.env.FRONTEND_HOST;
 const cors=(req,res,next)=>{
-    res.header("Access-Control-Allow-Origin", frontend);
+    res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
     res.header("Access-Control-Allow-Credentials",true)
