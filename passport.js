@@ -7,7 +7,9 @@ const backend=process.env.BACKEND_HOST;
 passport.use(new google_strat({
     clientID: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: backend+"/auth/google/callback"
+    callbackURL: backend+"/auth/google/callback",
+    pkce:true,
+    state:true
   },
   async(accessToken, refreshToken, profile, done)=>{
     
