@@ -32,7 +32,7 @@ app.use(session({
     keys:["supersecurekey1"],
     httpOnly:true,
     secure:true,
-    sameSite:false
+    sameSite:"none"
   }))
 
 app.use(passport.initialize());
