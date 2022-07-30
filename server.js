@@ -27,12 +27,13 @@ const dburl=process.env.DB_URL.replace('username',username).replace('password',p
 mongoose.connect(dburl);
 app.use(express.json());
 app.use(cors);
+app.set("trust proxy", 1);
 app.use(session({
     name:"ses",
     maxAge: 24*60*60*1000,
     keys:["supersecurekey1"],
     httpOnly:true,
-    secure:false,
+    secure:true,
     sameSite:"none"
   }))
 app.patch("*",(req,res)=>res.send())
