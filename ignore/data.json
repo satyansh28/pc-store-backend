@@ -1,0 +1,139 @@
+[
+    {
+        "name":"MSI B550 PRO VDH Wifi Motherboard",
+        "price":12000,
+        "type":"Motherboard",
+        "power":0,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/91NQYHV3GUL._AC_UY218_.jpg",
+        "specs":{
+            "Supports":"Ryzen 5000 and 3000 series",
+            "Socket":"AM4",
+            "RAM clock":"DDR4 upto 4400Mhz",
+            "Wifi":"Intel wifi 5 card",
+            "Rear_connectivity":"4xUSB 3.1 type-A,2xUSB 2.0 type-A,1xHDMI 1.4b,1xVGA,1xMini-display,1xGigabit ethernet"
+
+        }
+    },
+    {
+        "name":"MSI Ventus NVIDIA RTX 3060 12G OC LHR GPU",
+        "price":40000,
+        "type":"GPU",
+        "power":300,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/71tduSp8ooL._SX355_.jpg",
+        "specs":{
+            "Model":"RTX 3060 12Gb",
+            "Vram":"12GB GDDR6",
+            "Bus_width":"192-bit",
+            "Display_Out":"1 x HDMI 2.1, 3 x DisplayPort",
+            "Clock":"1807Mhz"
+        }
+    },
+    {
+        "name":"Kingston FURY 8GB 3600MHz DDR4 CL17 DIMM Memory",
+        "price":3500,
+        "type":"Memory",
+        "power":5,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/61Yc53OhY4L._SX425_.jpg",
+        "specs":{
+            "Capacity":"8GB",
+            "Module":"DIMM",
+            "Type":"DDR4",
+            "Clock":"3600MHz",
+            "Latency":"17-21-21"
+        }
+    },
+    {
+        "name":"WD Blue SN570 1TB NVMe m.2 SSD",
+        "price":7800,
+        "type":"Storage",
+        "power":5,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/61a+U9YhovL._SY450_.jpg",
+        "specs":{
+            "Capacity":"1TB",
+            "PCIe":"3.0x4",
+            "Interface":"NVMe",
+            "Form_factor":"M.2",
+            "Sequential_read":"Upto 3500MBps",
+            "Sequential_write":"Upto 3000MBps",
+            "Flash":"3d-NAND TLC"
+            
+        }
+    },
+    {
+        "name":"Thermal Grizzly Kryonaut Thermal Grease Paste",
+        "price":700,
+        "type":"Thermal_paste",
+        "power":0,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/411-MigJxfL._SY450_.jpg",
+        "specs":{
+            "Compound":"Thermal grease",
+            "Conductivity":"12.5W/mK",
+            "Conductive":"No",
+            "Weight":"1g"
+        }
+    },
+    {
+        "name":"ARCTIC Freezer 34 Esports Duo Tower CPU Cooler",
+        "price":3500,
+        "type":"CPU_cooler",
+        "power":10,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/51kCgchE-KL._SX342_.jpg",
+        "specs":{
+            "Fans":"2x 120mm PWM",
+            "Heat_sinks":"4 copper heat-sinks",
+            "Fan_Speed":"200-2100 RPM",
+            "Socket_support":"Intel:2066,2011,1155,1151,1150,1200\nAMD:AM4"
+        }
+    },
+    {
+        "name":"Cooler Master MWE 550 Bronze V2 230v, 80 Plus Bronze",
+        "price":4000,
+        "type":"PSU",
+        "power":0,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/81zTChlbPHL._SX355_.jpg",
+        "specs":{
+            "Output":"550W",
+            "Efficiency":"80+ bronze",
+            "Modularity":"Non-modular",
+            "Features":"LLC resonance, monorail with DC-to-DC conversion",
+            "Size":"ATX"
+        }
+    },
+    {
+        "name":"Cooler Master MWE 550 Bronze V2 230v, 80 Plus Bronze",
+        "price":4000,
+        "type":"PSU",
+        "power":0,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/81zTChlbPHL._SX355_.jpg",
+        "specs":{
+            "Output":"550W",
+            "Efficiency":"80+ bronze",
+            "Modularity":"Non-modular",
+            "Features":"LLC resonance, monorail with DC-to-DC conversion",
+            "Size":"ATX"
+        }
+    },
+    {
+        "name":"MSI MAG FORGE 100R Mid Tower Gaming PC Case ",
+        "price":4500,
+        "type":"Cabinet",
+        "power":0,
+        "left":3,
+        "img":"https://m.media-amazon.com/images/I/61mqNyjxgGS._SX450_.jpg",
+        "specs":{
+            "Rear_fan":"120mm black",
+            "Front_fan":"2x120mm ARGB",
+            "Supports":"ATX,m-ATX and ITX",
+            "Front_IO":"2x USB3.2 Gen1 type-A, 1xHD-audio",
+            "Cooler_clearence":"165mm"
+        }
+    }
+]
