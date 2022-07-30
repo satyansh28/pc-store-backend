@@ -30,6 +30,8 @@ app.use(session({
     name:"ses",
     maxAge: 24*60*60*1000,
     keys:["supersecurekey1"],
+    httpOnly:true,
+    secure:true,
     sameSite:true
   }))
 
