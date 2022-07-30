@@ -13,7 +13,7 @@ urouter.get("/check",(req,res)=>{
         res.status(200).send();
     }
     else
-        res.status(400).send();
+        res.status(401).send();
 })
 urouter.get("/google",passport.authenticate("google",{scope:["profile","email"]}));
 urouter.get('/google/callback',(req,res,next)=>{console.log("asdone");next()} ,
